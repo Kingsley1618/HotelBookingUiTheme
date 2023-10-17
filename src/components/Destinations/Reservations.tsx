@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import {HiPaperAirplane} from "react-icons/bi"
+import {HiPaperAirplane} from "react-icons/hi"
 import Flight from "@/assets/webp/flight.webp"
 import Hotel from "@/assets/webp/hotel.webp"
 export default function Reservations() {
