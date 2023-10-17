@@ -13,7 +13,7 @@ export default function Reservations() {
     <div className='w-[100%] sm:max-w-[100%] max-w-[90%] mx-auto' >
 <h1 className='text-white font-[900] md:text-[1.7rem] text-[1.1rem]'>Flights</h1>
 <p className='font-bold text-white text-center md:text-[1rem] text-[.7rem] md:mb-[30px] mb-[20px]'>Travel the world with cheap flights, exclusive deals, and more.</p>
-<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'><FaBars /> <h1>Search flights</h1></button>
+<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'> <h1>Search flights</h1></button>
 </div>
 </div>
 </div>
@@ -24,7 +24,7 @@ export default function Reservations() {
     <div className='w-[100%] sm:max-w-[100%] max-w-[90%] mx-auto' >
 <h1 className='text-white font-[900] md:text-[1.7rem] text-[1.1rem]'>Hotels</h1>
 <p className='font-bold text-white text-center md:mb-[30px] mb-[20px] md:text-[1rem] text-[.7rem] '>Book hotels in over 100 countries around the world.</p>
-<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'><FaBars /> <h1>Search flights</h1></button>
+<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'> <h1>Search flights</h1></button>
 </div>
 </div>
 </div>
@@ -36,7 +36,7 @@ export default function Reservations() {
     <div className='w-[100%] sm:max-w-[100%] max-w-[90%] mx-auto'>
 <h1 className='text-white font-[900] md:text-[1.7rem] text-[1.1rem]'>Flights</h1>
 <p className='font-bold text-white text-center md:mb-[30px] mb-[20px] md:text-[1rem] text-[.7rem]'>Travel the world with cheap flights, exclusive deals, and more.</p>
-<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'><FaBars /> <h1>Search flights</h1></button>
+<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3  flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'> <h1>Search flights</h1></button>
 </div>
 </div>
 </div>
@@ -49,7 +49,7 @@ export default function Reservations() {
     <div className='w-[100%] sm:max-w-[100%] max-w-[90%] mx-auto'>
 <h1 className='text-white font-[900] md:text-[1.7rem] text-[1.1rem]'>Hotels</h1>
 <p className='font-bold text-white text-center md:mb-[30px] mb-[20px] md:text-[1rem] text-[.7rem]'>Book hotels in over 100 countries around the world.</p>
-<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3 flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'><FaBars /> <h1>Search flights</h1></button>
+<button type="button" className='bg-[rgb(135,206,235)] cursor-pointer font-medium rounded-lg py-3 px-3 flex justify-center mx-auto items-center md:gap-x-2 gap-x-1 md:w-[50%] w-[70%]'> <h1>Search flights</h1></button>
 </div>
 </div>
 </div>

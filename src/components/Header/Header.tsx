@@ -13,9 +13,8 @@ export default function Header() {
    <>
    <nav className='flex justify-between container mt-3  gap-x-3'>
 <Image src={Logo} className='lg:hidden flex' width={100} height={40} alt='logo' />
-<div className='lg:flex hidden gap-x-8 flex-wrap'>
-<div className='flex gap-x-1 items-center'> <FaBars />  <h1 className='font-semibold'>Visa Apply</h1></div>
-<div className='flex gap-x-1 items-center'> <FaBars />  <h1 className='font-semibold'>Find Flight</h1></div>
+<div className='lg:flex hidden gap-x-8 flex-wrap'><div> <h1 className='font-semibold'>Visa Apply</h1></div>
+<div className='flex gap-x-1 items-center'>   <h1 className='font-semibold'>Find Flight</h1></div>
 <div className='flex gap-x-1 items-center'> <MdBedroomParent />  <h1 className='font-semibold'>Rent Stay</h1></div>
 
 </div>
