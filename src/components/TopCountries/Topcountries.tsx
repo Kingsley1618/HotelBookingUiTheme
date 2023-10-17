@@ -52,7 +52,7 @@ export default function Topcountries() {
     })}
   </div>
 
-  <div className='grid grid-cols-2 gap-x-2 gap-y-2 flex-1 h-auto'>
+  <div className='grid grid-cols-2 gap-x-2 gap-y-2 flex-1 h-auto md:order-2 order-1'>
     {hoveredCountry.currentCountry.map((country, index) => {
       return (
         <div key={index} className='w-full h-full relative'>
