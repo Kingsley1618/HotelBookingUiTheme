@@ -25,7 +25,7 @@ export default function Topcountries() {
 </div>
 
 
-<div className='flex md:flex-row flex-col gap-y-8 mt-6 h-auto gap-x-4'>
+<div className='flex md:flex-row flex-col gap-y-8 mt-6 md:h-auto md:gap-x-4'>
   <div className='bg-[rgb(135,206,235)] w-full rounded-3xl py-2 px-5 flex-1 md:order-1 order-2'>
     {hoveredCountry.currentCountry.map((country, index) => {
       return (
