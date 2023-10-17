@@ -25,8 +25,8 @@ export default function Topcountries() {
 </div>
 
 
-<div className='flex md:flex-row flex-col gap-y-30 mt-6 h-auto gap-x-4'>
-  <div className='bg-[rgb(135,206,235)] w-full rounded-3xl py-2 px-5 flex-1 md:order-first order-last'>
+<div className='flex md:flex-row flex-col gap-y-8 mt-6 h-auto gap-x-4'>
+  <div className='bg-[rgb(135,206,235)] w-full rounded-3xl py-2 px-5 flex-1 md:order-1 order-2'>
     {hoveredCountry.currentCountry.map((country, index) => {
       return (
         <div key={index} className='w-full'>
@@ -41,7 +41,7 @@ export default function Topcountries() {
               </p>
               <button
                 type='button'
-                className='text-black mt-3 py-3 rounded-md font-bold bg-white text-center mx-auto block w-90 text-[.9rem]'
+                className='text-black mt-3 py-3 rounded-md font-bold bg-white text-center mx-auto block w-[90%] text-[.9rem]'
               >
                 {country.buttonText}
               </button>
