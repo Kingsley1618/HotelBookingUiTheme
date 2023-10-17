@@ -21,7 +21,7 @@ export default function Review() {
     </div>
 
 
-    <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-2 w-[100%] sm:max-w-[100%] mx-auto max-w-[90%]'>
+    <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-2 w-[100%] sm:max-w-[100%] mx-auto max-w-[98%]'>
 
 <ReviewCard />
 
