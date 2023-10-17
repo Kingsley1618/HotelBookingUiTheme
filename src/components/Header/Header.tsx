@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {FaBarsStaggered} from "react-icons/fa6"
-import {IoAirplaneSharp} from "react-icons/io5"
+import {FaBars} from "react-icons/fa"
+
 import {MdBedroomParent} from "react-icons/md"
 import {TbCurrencyNaira} from "react-icons/tb"
 import Logo from "@/assets/jpg/logo.png"
@@ -14,8 +14,8 @@ export default function Header() {
    <nav className='flex justify-between container mt-3  gap-x-3'>
 <Image src={Logo} className='lg:hidden flex' width={100} height={40} alt='logo' />
 <div className='lg:flex hidden gap-x-8 flex-wrap'>
-<div className='flex gap-x-1 items-center'> <IoAirplaneSharp />  <h1 className='font-semibold'>Visa Apply</h1></div>
-<div className='flex gap-x-1 items-center'> <IoAirplaneSharp />  <h1 className='font-semibold'>Find Flight</h1></div>
+<div className='flex gap-x-1 items-center'> <FaBars />  <h1 className='font-semibold'>Visa Apply</h1></div>
+<div className='flex gap-x-1 items-center'> <FaBars />  <h1 className='font-semibold'>Find Flight</h1></div>
 <div className='flex gap-x-1 items-center'> <MdBedroomParent />  <h1 className='font-semibold'>Rent Stay</h1></div>
 
 </div>
@@ -36,7 +36,7 @@ export default function Header() {
 </div>
 </div>
 
-<FaBarsStaggered className="font-bold text-[1.3rem] lg:hidden flex"/>
+<FaBars className="font-bold text-[1.3rem] lg:hidden flex"/>
    </nav>
    
    </>
