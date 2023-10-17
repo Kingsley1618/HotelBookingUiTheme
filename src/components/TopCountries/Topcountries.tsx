@@ -65,9 +65,9 @@ export default function Topcountries() {
             onMouseEnter={() => {
               hoveredCountry.hoverChange(index);
             }}
-            className='rounded-3xl w-full h-full cursor-pointer'
-            height={300}
-            width={300}
+            className='rounded-3xl h-full cursor-pointer'
+            height={700}
+            width={700}
             alt='countries'
           />
           {country.open && (
