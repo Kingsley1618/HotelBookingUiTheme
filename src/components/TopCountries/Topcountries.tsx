@@ -44,7 +44,7 @@ export default function Topcountries() {
 
 <div className='grid grid-cols-2 gap-x-2 gap-y-2 flex-[1] h-auto'>
  {hoveredCountry.currentCountry.map((country, index)=> {
-  return  <div className='w-[100%] h-[100%] relative'><Image key = {index} src={country.image} onTouchStart={()=> { hoveredCountry.hoverChange(index)}} onMouseEnter={()=> {
+  return  <div key = {index} className='w-[100%] h-[100%] relative'><Image key = {index} src={country.image} onTouchStart={()=> { hoveredCountry.hoverChange(index)}} onMouseEnter={()=> {
     hoveredCountry.hoverChange(index)
   }} className='rounded-3xl w-[100%] h-[100%] cursor-pointer' height={300} width={300} alt='countries' />
 

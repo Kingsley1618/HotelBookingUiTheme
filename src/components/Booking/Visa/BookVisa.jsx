@@ -18,8 +18,8 @@ export default function BookVisa() {
 <label htmlFor='country' className='text-[.8rem] relative top-[13px] bg-white z-[9999] left-[10px] px-2'>Home country</label>
 <div className='relative'>
 <select id="country" name="country" className='appearance-none w-[100%]  p-3 outline-none border-[rgb(204,204,204)] border-[1px] rounded-md text-gray-700'>
-{countryList?.map((countryName)=> {
-    return <option value={countryName}>{countryName}</option>
+{countryList?.map((countryName, index)=> {
+    return <option key = {index} value={countryName}>{countryName}</option>
 })}
 
 </select>
@@ -60,8 +60,8 @@ export default function BookVisa() {
 <label htmlFor='country' className='text-[.8rem] relative top-[13px] bg-white z-[9999] left-[10px] px-2'>Home country</label>
 <div className='relative'>
 <select id="country" name="country" className='appearance-none w-[100%]  p-3 outline-none border-[rgb(204,204,204)] border-[1px] rounded-md text-gray-700'>
-{countryList?.map((countryName)=> {
-    return <option value={countryName}>{countryName}</option>
+{countryList?.map((countryName, index)=> {
+    return <option key = {index} value={countryName}>{countryName}</option>
 })}
 
 </select>
