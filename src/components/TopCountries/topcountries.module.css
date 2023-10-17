@@ -1,0 +1,23 @@
+.header {
+    font-size: calc(1.1rem + .8vw);
+    font-weight: 700;
+}
+
+.text {
+    font-size: calc(.7rem + .4vw);
+    margin-top: 10px;
+    font-weight: 600;
+    color:grey;
+}
+
+.countryHeader {
+    font-weight: 700;
+    font-size: calc(1.3rem + 1.3vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    max-width: 380px;
+}
+
+.dim {
+    background-color: rgba(255, 255, 255, 0.26);
+}

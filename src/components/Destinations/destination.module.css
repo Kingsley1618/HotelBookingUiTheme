@@ -1,0 +1,12 @@
+.header {
+    font-size: calc(1.1rem + .8vw);
+    font-weight: 700;
+  
+}
+
+.text {
+    font-size: calc(.7rem + .4vw);
+    margin-top: 10px;
+    font-weight: 600;
+    color:grey;
+}

@@ -1,0 +1,27 @@
+.text1 {
+    font-size: 1.1rem;
+    text-align:center
+}
+
+.text2 {
+  
+    text-align:center;
+    font-weight: 900;
+    font-family: Poppins;
+}
+ 
+.text3 {
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.cardHeader {
+    overflow: scroll;
+
+}
+
+.cardHeader::-webkit-scrollbar {
+   display: none;
+    
+}
